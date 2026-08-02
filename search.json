@@ -1,0 +1,73 @@
+[
+  {
+    "objectID": "topics/index.html",
+    "href": "topics/index.html",
+    "title": "Topics",
+    "section": "",
+    "text": "Notes are organized in subfolders under topics/. Each folder can include an index.qmd (section intro) and one or more topic pages.\nAdd a new directory here when you start a subject; it will appear automatically in the sidebar.",
+    "crumbs": [
+      "Home",
+      "Topics"
+    ]
+  },
+  {
+    "objectID": "topics/index.html#overview",
+    "href": "topics/index.html#overview",
+    "title": "Topics",
+    "section": "",
+    "text": "Notes are organized in subfolders under topics/. Each folder can include an index.qmd (section intro) and one or more topic pages.\nAdd a new directory here when you start a subject; it will appear automatically in the sidebar.",
+    "crumbs": [
+      "Home",
+      "Topics"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "crypto-docs",
+    "section": "",
+    "text": "This site is a growing collection of personal notes on cryptography: definitions, protocols, and the math behind them.\nUse the search box in the navbar to find topics across all notes. Add new material under topics/ as folders and .qmd files; the sidebar updates automatically from the filesystem."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "crypto-docs",
+    "section": "",
+    "text": "This site is a growing collection of personal notes on cryptography: definitions, protocols, and the math behind them.\nUse the search box in the navbar to find topics across all notes. Add new material under topics/ as folders and .qmd files; the sidebar updates automatically from the filesystem."
+  },
+  {
+    "objectID": "index.html#notation",
+    "href": "index.html#notation",
+    "title": "crypto-docs",
+    "section": "Notation",
+    "text": "Notation\nUnless a page says otherwise, we use standard conventions: \\(\\mathbb{Z}_p\\) for integers mod \\(p\\), \\(|x|\\) for bit length, and \\(\\oplus\\) for XOR.\nSee About for scope and disclaimers."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "These pages are reference notes, not a textbook or a substitute for primary sources (standards, papers, and audited implementations). They may be incomplete or contain errors—verify anything security-critical elsewhere."
+  },
+  {
+    "objectID": "about.html#scope",
+    "href": "about.html#scope",
+    "title": "About",
+    "section": "",
+    "text": "These pages are reference notes, not a textbook or a substitute for primary sources (standards, papers, and audited implementations). They may be incomplete or contain errors—verify anything security-critical elsewhere."
+  },
+  {
+    "objectID": "about.html#building-locally",
+    "href": "about.html#building-locally",
+    "title": "About",
+    "section": "Building locally",
+    "text": "Building locally\nInstall Quarto, then from the repository root:\nquarto preview   # live preview with search (http://localhost)\nquarto render    # build static site to _site/\nSearch does not work when opening HTML files directly from disk (file://); use quarto preview or the deployed GitHub Pages URL."
+  },
+  {
+    "objectID": "about.html#publishing",
+    "href": "about.html#publishing",
+    "title": "About",
+    "section": "Publishing",
+    "text": "Publishing\nPushes to main trigger the GitHub Action that renders and publishes to the gh-pages branch. After the first successful deploy, the site is available at:\nhttps://tfullert.github.io/crypto-docs/\n(Once the GitHub repository exists and Pages is enabled from gh-pages.)"
+  }
+]

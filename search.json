@@ -1,27 +1,5 @@
 [
   {
-    "objectID": "topics/index.html",
-    "href": "topics/index.html",
-    "title": "Topics",
-    "section": "",
-    "text": "Notes are organized in subfolders under topics/. Each folder can include an index.qmd (section intro) and one or more topic pages.\nAdd a new directory here when you start a subject; it will appear automatically in the sidebar.",
-    "crumbs": [
-      "Home",
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics/index.html#overview",
-    "href": "topics/index.html#overview",
-    "title": "Topics",
-    "section": "",
-    "text": "Notes are organized in subfolders under topics/. Each folder can include an index.qmd (section intro) and one or more topic pages.\nAdd a new directory here when you start a subject; it will appear automatically in the sidebar.",
-    "crumbs": [
-      "Home",
-      "Topics"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "crypto-docs",
@@ -69,5 +47,27 @@
     "title": "About",
     "section": "Publishing",
     "text": "Publishing\nPushes to main trigger the GitHub Action that renders and publishes to the gh-pages branch. After the first successful deploy, the site is available at:\nhttps://tfullert.github.io/crypto-docs/\n(Once the GitHub repository exists and Pages is enabled from gh-pages.)"
+  },
+  {
+    "objectID": "topics/index.html",
+    "href": "topics/index.html",
+    "title": "Topics",
+    "section": "",
+    "text": "Notes are organized in subfolders under topics/. Each folder can include an index.qmd (section intro) and one or more topic pages.\nAdd a new directory here when you start a subject; it will appear automatically in the sidebar.",
+    "crumbs": [
+      "Home",
+      "Topics"
+    ]
+  },
+  {
+    "objectID": "topics/index.html#overview",
+    "href": "topics/index.html#overview",
+    "title": "Topics",
+    "section": "",
+    "text": "Notes are organized in subfolders under topics/. Each folder can include an index.qmd (section intro) and one or more topic pages.\nAdd a new directory here when you start a subject; it will appear automatically in the sidebar.",
+    "crumbs": [
+      "Home",
+      "Topics"
+    ]
   }
 ]

@@ -1,0 +1,15 @@
+---
+title: "crypto-docs"
+---
+
+## Welcome
+
+This site is a growing collection of personal notes on cryptography: definitions, protocols, and the math behind them.
+
+Use the **search** box in the navbar to find topics across all notes. Add new material under `topics/` as folders and `.qmd` files; the sidebar updates automatically from the filesystem.
+
+## Notation
+
+Unless a page says otherwise, we use standard conventions: $\mathbb{Z}_p$ for integers mod $p$, $|x|$ for bit length, and $\oplus$ for XOR.
+
+See [About](about.qmd) for scope and disclaimers.

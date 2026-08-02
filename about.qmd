@@ -1,0 +1,26 @@
+---
+title: "About"
+---
+
+## Scope
+
+These pages are **reference notes**, not a textbook or a substitute for primary sources (standards, papers, and audited implementations). They may be incomplete or contain errors—verify anything security-critical elsewhere.
+
+## Building locally
+
+Install [Quarto](https://quarto.org/docs/get-started/), then from the repository root:
+
+```bash
+quarto preview   # live preview with search (http://localhost)
+quarto render    # build static site to _site/
+```
+
+Search does not work when opening HTML files directly from disk (`file://`); use `quarto preview` or the deployed GitHub Pages URL.
+
+## Publishing
+
+Pushes to `main` trigger the GitHub Action that renders and publishes to the `gh-pages` branch. After the first successful deploy, the site is available at:
+
+`https://tfullert.github.io/crypto-docs/`
+
+(Once the GitHub repository exists and Pages is enabled from `gh-pages`.)

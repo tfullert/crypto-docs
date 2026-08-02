@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "crypto-docs"
+  description: "Personal reference notes on cryptography"
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    search: true
+    left:
+      - text: Home
+        href: index.qmd
+      - about.qmd
+
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - section: Topics
+        contents: topics
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    code-copy: true
+
+execute:
+  freeze: auto

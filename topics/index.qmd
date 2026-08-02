@@ -1,0 +1,9 @@
+---
+title: "Topics"
+---
+
+## Overview
+
+Notes are organized in subfolders under `topics/`. Each folder can include an `index.qmd` (section intro) and one or more topic pages.
+
+Add a new directory here when you start a subject; it will appear automatically in the sidebar.
